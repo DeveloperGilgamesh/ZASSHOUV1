@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 義 𝗚𝗶𝘆𝘂 | 🌊 勇 ]";
+const doNotDelete = "[ ⚔️Ｚａｓｓｈｏ | ⚔️Ｇｉｌｇａｍｅｓｈ ]";
  
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
  
-      msg += `╔══════════════╗\n      𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n╚══════════════╝`;
+      msg += `╔══════════════╗\n ＺａｓｓｈｏＧｉｌｇａｍｅｓｈ \n╚══════════════╝`;
  
       for (const [name, value] of commands) {
           if (value.config.role > 1 && role < value.config.role) continue;
@@ -66,13 +66,7 @@ module.exports = {
  
       const helpListImages = [
  
-"https://i.imgur.com/DPTioGT.gif",
-"https://i.imgur.com/DPTioGT.gif', ",
-"https://i.imgur.com/DPTioGT.gif",
-"https://i.imgur.com/DPTioGT.gif",
-"https://i.imgur.com/RrRNARq.gif",
-"https://i.imgur.com/jBd6fgF.gif",
-"https://i.imgur.com/uB4nTr7.gif"
+""
 ];
  
  
