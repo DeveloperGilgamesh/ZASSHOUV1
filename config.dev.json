@@ -17,20 +17,19 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61562362827346",
-    "100075058221244"
+    "100073129302064"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Gab Yu",
-  "AGE": "14",
+  "OWNER": "Aljur Pogoy ",
+  "AGE": "16",
   "GENDER": "MALE",
-  "nickNameBot": "義 𝗚𝗶𝘆𝘂 | 🌊 勇",
-  "FACEBOOK": "https://www.facebook.com/ 61562362827346",
-  "prefix": "/",
+  "nickNameBot": "Gilgamesh⚔️ [ + ]",
+  "FACEBOOK": "https://www.facebook.com/profile.php?id=100073129302064",
+  "prefix": "+",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
