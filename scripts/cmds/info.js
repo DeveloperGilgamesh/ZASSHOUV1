@@ -15,14 +15,14 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "𝗚𝗶𝗬𝘂";
-		const botPrefix = "/";
-		const authorName = "𝗚𝗮𝗯𝗬𝘂";
-		const ownAge = "14";
-		const teamName = "𝗠𝗶𝘅𝗶𝗻𝖳𝖾𝖺𝗆";
-		const authorFB = "https://www.facebook.com/61562362827346";
-		const authorInsta = "Gabyu58";
-		const tikTok = "tiktok.com/@gojoyu69";
+		const botName = "Gilgamesh⚔️ [ + ]";
+		const botPrefix = "+";
+		const authorName = "Aljur Pogoy";
+		const ownAge = "16";
+		const teamName = "Artificial intelligence";
+		const authorFB = "Just search my name on Facebook Aljur Pogoy";
+		const authorInsta = "Unknown";
+		const tikTok = "unknown";
 		const urls = JSON.parse(fs.readFileSync('Gabyu.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
