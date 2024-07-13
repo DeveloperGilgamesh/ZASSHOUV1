@@ -17,15 +17,16 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ownerInfo = {
-				name: '𝗚𝗔𝗕 𝗬𝗨',
-				gender: '𝗠𝗔𝗟𝗘',
-				hobby: '𝗠𝗔𝗞𝗜𝗡𝗚 𝗕𝗢𝗧𝗦',
-				Fb: 'https://facebook.com/61562362827346',
-				Relationship: '𝘄𝗶𝘁𝗵 𝘁𝗿𝗶𝘅𝗶𝗲',
-				bio: '𝗕𝗮𝗹𝗶𝗸 𝗻𝘆𝗼 𝗺𝗮𝗶𝗻 𝗮𝗰𝗰𝗼𝘂𝗻𝘁 𝗸𝗼! '
+				name: 'Aljur Pogoy',
+				gender: 'Male',
+				hobby: 'Coding everyday ',
+				Fb: 'https://www.facebook.com/100073129302064',
+				Relationship: 'With God',
+				hate: 'i hate proclaimed with my Bot i created 
+				bio: 'Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed'
 			};
 
-			const bold = 'https://i.imgur.com/Kyo3frH.mp4';
+			const bold = '';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
@@ -49,6 +50,8 @@ Relationship: ${ownerInfo.Relationship}
 Hobby: ${ownerInfo.hobby}
 
 Fb: ${ownerInfo.Fb}
+
+hate: ${ownerInfo.hate}
 
 Bio: ${ownerInfo.bio}
 			`;
