@@ -16,25 +16,25 @@ module.exports = {
   },
 
   langs: {
-    vi: {
-      reset: "Đã reset prefix của bạn về mặc định: %1",
-      onlyAdmin: "Chỉ admin mới có thể thay đổi prefix hệ thống bot",
-      confirmGlobal: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix của toàn bộ hệ thống bot",
-      confirmThisThread: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix trong nhóm chat của bạn",
-      successGlobal: "Đã thay đổi prefix hệ thống bot thành: %1",
-      successThisThread: "Đã thay đổi prefix trong nhóm chat của bạn thành: %1",
-      myPrefix: "🌐 Prefix của hệ thống: %1\n🛸 Prefix của nhóm bạn: %2"
-    },
-    en: {
-      reset: "Your prefix has been reset to default: %1",
-      onlyAdmin: "Only admin can change prefix of system bot",
-      confirmGlobal: "Please react to this message to confirm change prefix of system bot",
-      confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
-      successGlobal: "Changed prefix of system bot to: %1",
-      successThisThread: "Changed prefix in your box chat to: %1",
-      myPrefix: "🗡️ System prefix: %1\n🗡️ Your box chat prefix: 2%\n
-    }
-  },
+		vi: {
+			reset: "Đã reset prefix của bạn về mặc định: %1",
+			onlyAdmin: "Chỉ admin mới có thể thay đổi prefix hệ thống bot",
+			confirmGlobal: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix của toàn bộ hệ thống bot",
+			confirmThisThread: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix trong nhóm chat của bạn",
+			successGlobal: "Đã thay đổi prefix hệ thống bot thành: %1",
+			successThisThread: "Đã thay đổi prefix trong nhóm chat của bạn thành: %1",
+			myPrefix: "🗡️ Prefix của hệ thống: %1\n🗡️ Prefix của nhóm bạn: %2"
+		},
+		en: {
+			reset: "Your prefix has been reset to default: %1",
+			onlyAdmin: "Only admin can change prefix of system bot",
+			confirmGlobal: "Please react to this message to confirm change prefix of system bot",
+			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
+			successGlobal: "Changed prefix of system bot to: %1",
+			successThisThread: "Changed prefix in your box chat to: %1",
+			myPrefix: "🗡️ System prefix: %1\n🗡️ Your box chat prefix: %2"
+		}
+	},
 
   onStart: async function ({ message, role, args, commandName, event, threadsData, getLang }) {
     if (!args[0])
