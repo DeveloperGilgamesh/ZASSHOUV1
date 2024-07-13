@@ -26,7 +26,7 @@ module.exports = {
 				bio: 'Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed'
 			};
 
-			const bold = '';
+			const bold = 'https://imgur.com/a/iw2ecgJ';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
