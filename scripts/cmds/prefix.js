@@ -83,10 +83,10 @@ module.exports = {
 
   onChat: async function ({ event, message, getLang }) {
     if (event.body && event.body.toLowerCase() === "prefix") {
-      const attachment = await global.utils.getStreamFromURL("https://imgur.com/a/OcdkVg0.gif");
+      const attachment = await global.utils.getStreamFromURL("https://media.tenor.com/d6O8rhoF8uwAAAAM/anime-fate-series.gif");
       return message.reply({
         body: getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
-        attachment: await global.utils.getStreamFromURL("https://imgur.com/a/OcdkVg0.gif")
+        attachment: await global.utils.getStreamFromURL("https://media.tenor.com/d6O8rhoF8uwAAAAM/anime-fate-series.gif")
       });
     }
   }
