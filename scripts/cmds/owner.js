@@ -22,7 +22,7 @@ module.exports = {
 				hobby: 'Coding everyday ',
 				Fb: 'https://www.facebook.com/100073129302064',
 				Relationship: 'With God',
-				hate: 'i hate proclaimed with my Bot i created 
+				hate: 'i hate proclaimed with my Bot i created',
 				bio: 'Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed'
 			};
 
